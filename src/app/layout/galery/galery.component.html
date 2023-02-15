@@ -1,0 +1,12 @@
+<div class="galery__item" *ngFor="let arepas of arepa;let i=index">
+    <div class="capa">
+        <h3>{{arepa[i].name}}</h3><img src="{{arepa[i].img}}">
+    </div>
+    <div class="content__ingredient">
+
+        <ul *ngFor="let ingredient of arepa[i].ingredients">
+            <li>{{ingredient}}</li>
+
+        </ul>
+    </div>
+</div>

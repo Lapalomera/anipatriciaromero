@@ -1,0 +1,63 @@
+
+nav{
+    background-color: var(--verde-oscuro);
+    
+    
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+#logo{
+    width: 100px;
+    
+}
+
+nav{
+    width: 100%;
+    height: auto;
+    padding: 0;
+
+}
+
+nav ul{
+    
+    padding:5px;
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+
+nav ul li{
+    flex: 1;
+    list-style: none;
+    padding: 5px 20px;
+    font-size: 29px;
+    color:var(--blanco);
+    
+}
+
+nav ul a:link{
+    text-decoration: none;
+   
+}
+
+
+nav ul li:hover{
+    background-color: var(--verde-claro);
+}
+
+@media only screen and (max-width:600px){
+    
+    nav ul{
+    
+        padding:5px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+       
+    }
+}

@@ -1,0 +1,34 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    --verde-oscuro:rgb(42, 88, 101);
+    --verde-claro:rgb(144,189,194);
+    --blanco:rgb(240,237,232);
+    --amarillo:rgb(255,166,0);
+    --naranja:rgb(229,118,2);
+
+}
+.container{
+    
+    background-color:var(--blanco) ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+app-navegation{
+    width: 100%;
+    
+}
+app-section{
+    width: 100%;
+
+   
+}
+app-footer{
+    width: 100%;
+    background-color: var(--verde-oscuro);
+    padding: 5%;
+}
