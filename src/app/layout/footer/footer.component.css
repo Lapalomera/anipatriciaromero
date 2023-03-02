@@ -20,13 +20,10 @@ a:visited{
     color: var(--amarillo);
 }
 
-@media only screen and (max-width:600px){
+@media screen and (max-width:600px){
     .content__footer{
         display:flex;
         flex-direction: column;
     }
-    .content__footer .contact{
-        width: 20%;
-        height: auto;
-    }
+   
 }
