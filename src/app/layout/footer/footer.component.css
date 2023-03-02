@@ -27,5 +27,6 @@ a:visited{
     }
     .content__footer .contact{
         width: 20%;
+        height: auto;
     }
 }
