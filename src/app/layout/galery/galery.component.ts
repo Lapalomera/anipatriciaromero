@@ -19,7 +19,7 @@ arepa:Product[]=[
     {
       name:'La Coronada',
       ingredients:['Mezcla de Pollo','Tajada','Queso Amarillo'],
-      img:"/anipatriciaromero/assets/img/arepa/paloma1.JPEG",
+      img:"assets/img/arepa/paloma1.JPEG",
     },
     {
       name:'La Catira',
