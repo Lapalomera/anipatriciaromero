@@ -7,13 +7,13 @@
       "projectType": "application",
       "schematics": {},
       "root": "",
-      "sourceRoot": "src",
+      "sourceRoot": "/anipatriciaromero/",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/lapalomera/anipatriciaromero/",
+            "outputPath": "dist/lapalomera",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
