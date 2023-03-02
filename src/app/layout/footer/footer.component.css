@@ -19,10 +19,3 @@ a:link{
 a:visited{
     color: var(--amarillo);
 }
-
-@media only screen and (max-width:600px){
-    .content__footer{
-        display:flex;
-        flex-direction: column;
-    }
-}
