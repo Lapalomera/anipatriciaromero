@@ -57,10 +57,19 @@
 
  .galery__item .capa h3{
     position: absolute;
-    font-size: 100%;
+    font-size:100%;
     z-index: -1;
     
 } 
+
+@media screen and (max-width:500px){
+    .galery__item .capa h3{
+        position: absolute;
+        font-size:50%;
+        z-index: -1;
+        
+    }
+}
 
 
 
